@@ -1,0 +1,23 @@
+
+playerOnePoints = 0
+playerTwoPoints = 0
+while playerOnePoints or playerTwoPoints <4 do:
+	Get Input for players 1s selection between rock paper and scissors
+	Get Input for players 2s selection between rock paper and scissors
+	if player 1 selects rock and player 2 selects paper 
+		then playerTwoPoints increased by 1
+	if player 1 selects rock and player 2 selects scissors 
+		then playerOnePoints increased by 1
+	if player 1 selects paper and player 2 selects rock 
+		then playerOnePoints increased by 1
+	if player 1 selects paper and player 2 selects scissors 
+		then playerTwoPoints increased by 1
+	if player 1 selects scissors and player 2 selects paper 
+		then playerOnePoints increased by 1
+	if player 1 selects scissors and player 2 select rock 
+		then playerTwoPoints increased by 1
+	
+if playerOnePoints = 4 
+	then output player 1 wins
+if playerTwoPoints = 4 
+	then output player 2 wins

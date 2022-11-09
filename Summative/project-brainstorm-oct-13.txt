@@ -1,0 +1,32 @@
+Larger scale goals:
+We want to crawl once and have it generate all the data we need
+The searchdata module will read the data created during the crawl
+We will then run our crawl module, which will use the searchdata module for some calculations
+
+Smaller scale goals:
+Read some HTML (given that webdev module)
+Parse the HTML
+	Extract links
+	Extract words
+Figure out how to organize all the data from the crawl (this one is super important to do in advance)
+Compute the data
+	Incoming links
+	Outgoing links
+	Term frequencies
+	IDF values
+	tf-idf values
+	Pagerank
+Save the data to files/directories
+Figure out how to clear the data when the crawl start
+
+Implement the search data functions (one by one)
+
+How to take in a phrase/search query
+How to compute the tf-idf of the search query
+How to get the IDF of the search query (you can use your searchdata)
+How to get the TF of the search query?
+How to compute cosine similarity
+How to find the search score for all documets
+How to sort the results
+
+	
